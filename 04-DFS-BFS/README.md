@@ -1,5 +1,6 @@
 # 04-DFS-BFS(깊이/너비 우선 탐색)
-> 발표자: 한다연 
+> * 발표자: 한다연 
+> * 발표 일자: 2022년 02월 27일 22시
 ## 1. Problem
   * https://programmers.co.kr/learn/courses/30/parts/12421
 
