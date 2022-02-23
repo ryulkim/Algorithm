@@ -8,7 +8,7 @@ bool solution(vector<string> phone_book) {
     
     sort(phone_book.begin(), phone_book.end());
     // ["119", "1195524421", "97674223"]
-    // 정렬-> 접두어인 경우가 있다면 이웃해있을 것
+    // 정렬 -> 접두어인 경우가 있다면 이웃해있을 것
     
     for(int i{0}; i<phone_book.size()-1; i++){
         if(phone_book[i] == phone_book[i+1].substr(0, phone_book[i].size())){
