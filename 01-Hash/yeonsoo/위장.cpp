@@ -13,7 +13,8 @@ int solution(vector<vector<string>> clothes) {
 /*  
     각 옷의 종류 당 경우의 수: (옷 개수 + 1(안 입는 경우))
     => 하루 의상 경우의 수(예)
-    : {(headgear개수 + 1)*(eyewear개수 + 1)*(face개수 + 1)} - 1(모두 안 입는 경우 빼기)    */
+    : {(headgear개수 + 1)*(eyewear개수 + 1)*(face개수 + 1)} - 1(모두 안 입는 경우 빼기)
+*/
     int answer = 1;
     map<string, int>::iterator iter;
     for(iter=cm.begin(); iter!=cm.end(); iter++){
